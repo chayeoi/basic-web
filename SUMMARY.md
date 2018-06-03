@@ -1,8 +1,14 @@
 # Table of contents
 
-* [웹 개발 기초 스터디](README.md)
-* [커리큘럼](undefined-1.md)
-* [1회차 \(6월 9일\)](1-6-9.md)
-* [test](undefined.md)
+* [Mash-up 웹 개발 기초 스터디](README.md)
+* [강의 일정](curriculum.md)
+* 1회차 \(6월 9일\)
+  * Untitled
+* test
 * hello
+* Untitled
+
+## Hello World
+
+* Untitled
 
