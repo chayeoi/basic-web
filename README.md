@@ -21,20 +21,21 @@ description: 디자이너를 위한 Mash-up 웹 프론트엔드 기초 스터디
 
 ### 1회차 \(6월 9일\)
 
-* 개발 환경 구성하기
-  * 텍스트 에디터 및 익스텐션 설치 \(Visual Studio Code\)
-  * 확인용 웹 브라우저 및 확장 도구 설치 \(Chrome, Firefox\)
-  * 버전 관리 시스템 설치 및 Github 계정 만들기 \(Git\)
-* 웹의 동작 원리
-  * 웹의 구조
-  * Front-end와 Back-end
-* 웹 접근성과 웹 표준
+* 실 환경 구성하기
+  * 텍스트 에디터: Visual Studio Code
+  * 웹 브라우저: Chrome, Firefox
+  * 버전 관리 시스템: Git
+* 웹
+  * 웹의 동작 원리
+  * 웹의 발전
+  * 프론트엔드와 백엔
+* 웹 표준과 웹 접근성
+  * 웹 표
   * 웹 접근성
-  * 웹 표준
 * HTML5 개요
-  * HTML이란?
-  * Semantic Web
-  * 새로운 표준 HTML5
+  * HTML이란
+  * 새로운 표준, HTML5
+  * 시맨틱 웹
 
 ### 2회차 \(6월 23일\)
 
