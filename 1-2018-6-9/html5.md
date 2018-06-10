@@ -22,14 +22,49 @@ HTML\(Hyper Text Markup Language\)은 **하이퍼텍스트 기술과 마크업�
 
 ## HTML5 기본
 
+### 요소
+
+시작과 종료 태그 사이의 범위를 '요소'라고 합니다. 다음 예에서 `<p>`는 시작 태그, `</p>`는 종료 태그이고, 시작 태그와 종료 태그 사이에 컨텐츠가 위치합니다. 시작 태그부터 종료 태그까지 전체를 묶어서 요소(Element)라고 합니다. 요소는 HTML을 구성하는 가장 기본적인 단위입니다.
+
 ![HTML &#xC694;&#xC18C;\(Element\)](../.gitbook/assets/element.jpg)
 
-  
+요소는 중첩될 수 있습니다. 즉, 요소는 다른 요소를 포함할 수 있습니다. 이때 부모와 자식 관계가 성립되고, HTML은 이러한 관계로 정보를 구조화합니다.
 
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mash-Up Study</title>
+  </head>
+  <body>
+    <div>
+      <h1>안녕하세요</h1>
+    </div>
+  </body>
+</html>
+```
+
+콘텐츠를 갖지 않는 요소들도 있습니다. 대표적으로, 'img' 태그가 있습니다. 이런 요소들을 빈 요소(Empty Element 또는 Self-closing Element)라고 부릅니다.
+
+```html
+<img src="chayeoi.png">
+```
+
+### 속성
+
+요소에 다양한 옵션 설정 역할을 하는 것이 속성입니다. 속성은 각 요소에 공통적으로 사용할 수 있는 것이 있는가 하면, 특정 요소에만 사용할 수 있는 것도 있습니다. 아래 예제에서는 이미지를 나타내는 'img' 태그에 'src' 속성으로 이미지 파일의 경로를 지정하고 있습니다.
 
 ![HTML &#xC18D;&#xC131;\(Attribute\)](../.gitbook/assets/attribute.jpg)
 
+### HTML 문서의 기본 구조
 
+HTML 문서는 기본적으로 다음과 같은 구조를 따릅니다.
+
+* DOCTYPE을 선언하여 사용할 HTML의 종류를 선언합니다. HTML5 문서는 `<!DOCTYPE html>`로 시작합니다.
+* DOCTYPE 선언 후 2행부터 실제 HTML 문서를 기술하게 되는데, 최상단의 루트 요소로 'html' 요소를 갖습니다. 'head'와 'body' 부분으로 나뉩니다.
+* 'head' 요소 안에는 문서의 제목, 외부 파일 참조, 메타 데이터 참조 등의 기본 정보를 기술 합니다. 이 정보들은 브라우저에 표시되지 않습니다.
+* 브라우저의 화면에 출력될 모든 내용은 'body' 요소 안에 기술합니다.
 
 ## 시맨틱 웹
 
@@ -62,4 +97,3 @@ HTML 요소는 non-semantic 요소, semantic 요소로 구분할 수 있습니�
 * semantic-요소: form, table, img 등이 있으며 이들 태그는 content의 의미를 명확히 설명합니다.
 
 ## 참고 자료
-
