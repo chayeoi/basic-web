@@ -1,4 +1,4 @@
-# HTML5 개요
+# HTML5
 
 ## HTML이란
 
@@ -21,6 +21,13 @@ HTML\(Hyper Text Markup Language\)은 **하이퍼텍스트 기술과 마크업�
 2007년 3월, XHTML의 표준화 작업을 이어가던 W3C는 결국 공개적으로 XHTML 2.0의 실패를 인정하였고 새롭게 HTML을 개발하기로 결정하면서 WHATWG의 표준안을 대부분 수용하여 HTML5가 탄생하게 되었습니다.
 
 ## HTML5 기본
+
+![HTML &#xC694;&#xC18C;\(Element\)](../.gitbook/assets/element.jpg)
+
+  
+
+
+![HTML &#xC18D;&#xC131;\(Attribute\)](../.gitbook/assets/attribute.jpg)
 
 
 
@@ -55,3 +62,4 @@ HTML 요소는 non-semantic 요소, semantic 요소로 구분할 수 있습니�
 * semantic-요소: form, table, img 등이 있으며 이들 태그는 content의 의미를 명확히 설명합니다.
 
 ## 참고 자료
+
