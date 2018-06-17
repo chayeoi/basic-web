@@ -1,4 +1,4 @@
-# Web Standard and Web Accessibility
+# 웹 표준과 웹 접근성
 
 ## 웹 표준
 
