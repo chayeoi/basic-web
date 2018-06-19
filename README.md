@@ -36,14 +36,13 @@ description: Mash-up 디자이너를 위한 웹 프론트엔드 기초 스터디
 * HTML5 개요
   * HTML이란
   * 새로운 표준, HTML5
+  * HTML5 기본
   * HTML 문서의 기본 구조
   * 시맨틱 웹
 
 ### 2회차 \(6월 23일\)
 
 * HTML5 기초
-  * 태그\(tag\)와 요소\(Element\), 속성\(Attribute\)
-  * HTML 문서의 기본 구조
   * 마크업 요소
   * 기본적인 마크업 작성 규칙
     * 종료 태그의 처리
