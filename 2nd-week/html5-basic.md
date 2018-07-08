@@ -18,19 +18,16 @@
 
 ### head
 
-* `<title>`
-  HTML 문서의 제목을 정의하는 요소로, 검색엔진 최적화(SEO)에도 매우 중요합니다. 정의된 제목은 브라우저 탭에 표시됩니다.
+* `<title>`: HTML 문서의 제목을 정의하는 요소로, 검색엔진 최적화(SEO)에도 매우 중요합니다. 정의된 제목은 브라우저 탭에 표시됩니다.
 
   ```html
   <title>Welcome to Mash-Up!</title>
   ```
 
-* `<meta>`
-  문자 코드나 문서의 개요, 키워드 등 브라우저 화면에 나타나지 않는 문서 정보를 기술하는 데 필요한 요소입니다. 주요 meta 요소의 속성은 다음과 같습니다.
+* `<meta>`: 문자 코드나 문서의 개요, 키워드 등 브라우저 화면에 나타나지 않는 문서 정보를 기술하는 데 필요한 요소입니다. 주요 meta 요소의 속성은 다음과 같습니다.
   * `charset`: HTML5로 작성된 문서 내에서 문자 코드를 지정하기 위한 속성입니다. 반드시 이 속성 값을 'utf-8'로 지정해줘야 한글이 꺠져보이지 않습니다.
   * `name="description"`: 문서의 개요를 나타내기 위한 속성입니다. 이 속성은 검색엔진에 의해 사용되므로 검색엔진 최적화(SEO)를 위해 중요합니다.
-  * `name="keywords"`
-    웹 페이지가 검색 엔진에서 어떤 키워드에 노출될지를 지정하기 위한 속성입니다. 검색엔진 최적화(SEO)를 위해 중요합니다.
+  * `name="keywords"`: 웹 페이지가 검색 엔진에서 어떤 키워드에 노출될지를 지정하기 위한 속성입니다. 검색엔진 최적화(SEO)를 위해 중요합니다.
 
   ```html
   <meta charset="utf-8">
@@ -38,9 +35,48 @@
   <meta name="keywords" content="Mash-Up, HTML, CSS">
   ```
 
-* `<style>`
-* `<link>`
-* `<script>`
+* `<style>`: CSS를 HTML 문서 내에 직접 기술할 때 사용합니다.
+
+  ```html
+  <html>
+    <head>
+      <style>
+        .container {
+          background-color: green;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="container">Mash-Up</div>
+    </body>
+  </html>
+  ```
+
+* `<link>`: 스타일 시트와 같은 외부 리소스를 HTML 문서에 연결할 때 사용합니다.
+
+  ```html
+  <html>
+    <head>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div class="container">Mash-Up</div>
+    </body>
+  </html>
+  ```
+
+* `<script>`: HTML 문서에 외부 자바스크립트 파일을 연결하거나 자바스크립트 코드를 직접 기술할 때 사용합니다.
+
+  ```html
+  <html>
+    <head>
+      <script src="index.js"></script>
+      <script>
+        alert('Hello, HTML!');
+      </script>
+    </head>
+  </html>
+  ```
 
 ### body
 
