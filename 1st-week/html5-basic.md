@@ -8,7 +8,7 @@ HTML\(Hyper Text Markup Language\)은 **하이퍼텍스트 기술과 마크업�
 >
 > 마크업 언어: 문서가 화면에 표시되는 형식을 나타내거나 데이터의 논리적인 구조를 명시하기 위한 규칙들을 정의한 언어의 일종입니다. 데이터를 기술한 언어라는 점에서 프로그래밍 언어와는 차이가 있습니다.
 
-```html
+```markup
 <h1>Hello, HTML!</h1>
 ```
 
@@ -32,7 +32,7 @@ HTML\(Hyper Text Markup Language\)은 **하이퍼텍스트 기술과 마크업�
 
 요소는 중첩될 수 있습니다. 즉, 요소는 다른 요소를 포함할 수 있습니다. 이때 부모와 자식 관계가 성립되고, HTML은 이러한 관계로 정보를 구조화합니다.
 
-```html
+```markup
 <!DOCTYPE html>
 <html>
   <head>
@@ -49,7 +49,7 @@ HTML\(Hyper Text Markup Language\)은 **하이퍼텍스트 기술과 마크업�
 
 콘텐츠를 갖지 않는 요소들도 있습니다. 대표적으로, 'img' 태그가 있습니다. 이런 요소들을 빈 요소\(Empty Element 또는 Self-closing Element\)라고 부릅니다.
 
-```html
+```markup
 <img src="chayeoi.png">
 ```
 
@@ -61,13 +61,13 @@ HTML\(Hyper Text Markup Language\)은 **하이퍼텍스트 기술과 마크업�
 
 속성은 시작 태그 내에 하나 이상의 여러 개를 지정할 수도 있습니다. 이 경우 속성과 속성은 공백으로 구분하여 지정해야 합니다.
 
-```html
+```markup
 <img src="chayeoi.png" alt="프로필 사진">
 ```
 
 속성 중에는 값을 갖지 않는 논리 속성도 존재합니다. 다음 예제에서 'input' 태그에 지정한 `required` 속성이 바로 값을 갖지 않는 논리 속성이라는 것입니다. `required` 속성이 지정된 input에 값이 비어있다면 해당 input이 속한 폼 데이터는 서버로 전송할 수 없습니다.
 
-```html
+```markup
 <input type="text" name="title" required>
 ```
 
@@ -80,7 +80,7 @@ HTML 문서는 기본적으로 다음과 같은 구조를 따릅니다.
 * 'head' 요소 안에는 문서의 제목, 외부 파일 참조, 메타데이터 참조 등의 기본 정보를 기술 합니다. 이 정보들은 브라우저에 표시되지 않습니다.
 * 브라우저의 화면에 출력될 모든 내용은 'body' 요소 안에 기술합니다.
 
-```html
+```markup
 <!DOCTYPE html>
 <html>
   <head>
@@ -107,7 +107,7 @@ SEO\(검색 엔진 최적화, Search Engine Optimization\)같은 마케팅 도�
 
 HTML로 작성된 문서는 컴퓨터가 해석할 수 있는 메타데이터와 사람이 사용하는 자연어 문장이 뒤섞여 있습니다. 아래 코드를 보면 1행과 2행은 브라우저에서 동일한 외형을 갖습니다. 이는 `h1` 태그의 디폴트 스타일이 1행과 같기 때문입니다.
 
-```html
+```markup
 <font size="6"><b>Hello</b></font>
 <h1>Hello</h1>
 ```
@@ -128,3 +128,4 @@ HTML 요소는 non-semantic 요소, semantic 요소로 구분할 수 있습니�
 ## 참고 자료
 
 * [Semantic Web - Poiema Web](https://poiemaweb.com/html5-semantic-web)
+
