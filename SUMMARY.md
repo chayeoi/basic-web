@@ -9,5 +9,7 @@
 * [2nd Week](2nd-week/README.md)
   * [HTML5 Basic](2nd-week/html5-basic.md)
   * [HTML5 Practice](2nd-week/html5-practice.md)
+  * [HTML5 Advanced](2nd-week/html5-advanced.md)
+  * [CSS3 Basic](2nd-week/css3-basic.md)
 * [3rd Week](3rd-week.md)
 
