@@ -76,11 +76,25 @@ Emmet의 도움으로, 아래처럼 입력한 다음 탭 키를 누르기만 하
 ```markup
 <div class="container">
   <header class="header">
-    <nav class="nav"></nav>
+    <h1></h1>
+    <nav class="nav">
+      <h2></h2>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </nav>
   </header>
   <main class="main">
-    <section></section>
-    <section></section>
+    <section>
+      <h2></h2>
+    </section>
+    <section>
+      <h2></h2>
+    </section>
   </main>
   <footer class="footer"></footer>
 </div>
