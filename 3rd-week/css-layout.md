@@ -4,11 +4,19 @@ HTML을 사용해서 문서를 작성할 때, 어떤 요소들끼리는 줄바�
 
 ## CSS 박스 모델
 
-대다수의 HTML 엘리먼트는 블록 요소(Block Element) 또는 인라인 요소(Inline Element) 중 하나로 분류됩니다. 이 외에도 더 다양한 종류가 있긴 하지만, 지금은 우선 이 둘의 차이를 이해하는 것만으로도 충분할 것 같습니다.
+HTML 엘리먼트는 블록 요소(Block Element), 인라인 요소(Inline Element) 또는 인라인 블록 요소(Inline-Block element) 중 하나로 분류됩니다. 사실 더 정확히 말하자면 이 외에도 더 다양한 종류가 있긴 합니다만, 대다수의 HTML 엘리먼트는 이 셋 중 하나에 속하기 떄문에 지금은 이 셋의 차이를 이해하는 것만으로도 일단 충분할 것 같습니다.
 
 ### 블록 요소(Block element)
 
+블록 요소는 내부에 다른 블록 요소를 포함할 수 있습니다. 
+
+#### 대표적인 블록 요소
+
+`h1` ~ `h6`, `div`, `p`, `header`, `footer`, `main`
+
 ### 인라인 요소(Inline element)
+
+### 인라인-블록 요소(Inline-Block element)
 
 ## 레이아웃 기법
 
